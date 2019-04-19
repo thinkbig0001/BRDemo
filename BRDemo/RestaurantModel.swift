@@ -8,6 +8,7 @@
 
 import Foundation
 
+//Decodable structs - for holding Restaurent data
 struct Contact: Decodable {
     let phone: String?
     let formattedPhone: String?

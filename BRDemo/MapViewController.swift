@@ -64,9 +64,11 @@ class MapViewController: UIViewController {
             }
         })
         
+        // Show all annotations in the map
         mapView.showAnnotations(annotations, animated: true)
     }
     
+    // Method to close the modal window
     @objc private func closeWindow(sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
